@@ -109,14 +109,22 @@ img{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    grid: 40px;
+    gap: 50px;
   }
-  
+
   #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right{
+  #steps .row > .central, 
+  #steps .row > .right {
     float: none;
-    width: 50%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central{
+    width: calc(50% - 40px);
+  }
+
+  #steps .row > .right{
+    width: 100%;
   }
 
   #steps .row h1{
