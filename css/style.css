@@ -105,6 +105,11 @@ img{
 /* parte bonus */
 @media screen and (min-width: 1200px){
 
+  .container.grey{
+    background-color: rgb(116, 240, 240);
+    width: 100%;
+  }
+
   #steps .row{
     display: flex;
     flex-flow: row wrap;
