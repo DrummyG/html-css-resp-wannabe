@@ -101,3 +101,25 @@ img{
   margin-top: 10px;
   }
 }
+
+/* parte bonus */
+@media screen and (min-width: 1200px){
+
+  #steps .row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    grid: 40px;
+  }
+  
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    width: 50%;
+  }
+
+  #steps .row h1{
+    width: 100%;
+  }
+}
