@@ -68,18 +68,18 @@ img{
     padding: 0;
     box-sizing: border-box;
   }
-  
+  /* sfondo */
   .container.grey{
     background-color: hsl(60deg 59% 88%);
     width: 100%;
   }
-
+/* riga generale */
   .row{
     width: 100%;
     margin-top: 0px;
     padding: 5px;
   }
-
+/* risolto il float */
   #lezioni .row > .left, 
   #lezioni .row > .right,
   #steps .row > .left,
@@ -88,12 +88,12 @@ img{
     float: none;
     width: 100%;
   }
-
+/* ridimensionata l'immagine */
   img{
     height: 150px;
     margin-top: 20px;
   }
-
+/* risolta parte finale */
   #why .row > .first,
   #why .row > .second,
   #why .row > .third {
